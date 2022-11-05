@@ -1,0 +1,102 @@
+body{
+    margin-top: 0px;
+    text-align: center;
+    /* By default font family is serif */
+    /* For fonts use: WebSafeFonts */
+    /* No font has 100% guarantee of being installed in user's system so if the font isnt available then the webiste switches to default font family
+    Thus we use mulitple fonts [priority: left (high) to right(low)]*/
+    /*
+    Font embedding:
+    Font will be available independent of the user's system as the font is embedded in out website now.
+    */
+    }
+
+h1{
+    color: #66BFBF;
+    font-size: 5.625em;
+    /* font-size: 2em 
+    em: dynamic in terms of sizes
+    1em == 16px*/
+    font-family: 'Sacramento',cursive;
+    padding: 30px auto 0px auto;
+    min-width: 30px;
+    /* Auto is used for centering automatically */
+    margin: 150px auto 0px auto; 
+    /*margin: top right bottom left*/
+    /*margin: top (right and left) bottom*/
+    /*margin: (top and bottom) (right and left) */
+    /* line height is the distance from the top and bottom elemets of the element */
+}
+
+.skills{
+    margin: 10px auto 10px auto;
+    width: 50%;
+    text-align: left;
+
+}
+
+.skill_row{
+    margin:auto;
+}
+
+.programmer{
+    color:#66BFBF;
+    position: relative;
+    bottom: 35px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 100px;
+    font-size: 2.5rem;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: normal;
+}
+
+p{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+div{
+    background-color:#F0FFFF;
+}
+
+.top{
+    padding:100px;
+    position: relative;
+}
+
+.above_cloud{
+    position: absolute;
+    right: 300px;
+    top:50px;
+}
+
+.below_cloud{
+    position: absolute;
+    left:300px;
+    bottom : 400px;
+}
+
+.mountain{
+    position:relative;
+    top: 50px
+}
+
+h2,h3{
+    text-align: center;
+}
+
+img{
+    margin:5px auto 5px auto;
+}
+
+.coding_skill{
+    width:25%;
+    float:left;
+    margin-right: 20px;
+}
+
+.chillies{
+    width:20%;
+    float:right;
+    margin-left: 20px;
+}

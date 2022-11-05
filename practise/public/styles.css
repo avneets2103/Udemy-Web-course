@@ -1,0 +1,38 @@
+body{
+    background-color:white;
+    text-align: center;
+}
+
+.head{
+    margin:auto;
+}
+
+img{
+    width:5%;
+    margin-bottom: 20px;
+}
+
+.sign_up{
+    margin-top: 10%;
+}
+
+.entry{
+    border-color: rgb(183, 179, 179);
+    text-align: center;
+    display: block;
+    width:30%;    
+    margin:auto;
+    padding:0;
+}
+
+.mid{
+    margin-top:-2px;
+}
+.bottom{
+    margin-top:-2px;
+}
+
+.cc{
+    padding-top:10px;
+    font-size: 0.7rem;
+}
